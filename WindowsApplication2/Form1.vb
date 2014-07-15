@@ -8,5 +8,6 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Timer1.Enabled = Not (Timer1.Enabled)
         ProgressBar1.Value = 0
+
     End Sub
 End Class
